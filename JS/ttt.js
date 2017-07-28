@@ -1,12 +1,12 @@
 var $content = $('#content');
 var $title = $('<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="gTitle"><h2>Tic-Tac-Toe</h2></div>');
 var $plyrInfo = $('<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="plyrInfo"></div>');
-var $plyr1 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="plyr1">Player 1:</div>');
-var $name1 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="name1">Name 1</div>');
+var $plyr1 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-3 col-sm-push-3 col-md-push-3 col-lg-push-2 pInfo" id="plyr1">Player 1:</div>');
+var $name1 = $('<div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xs-push-3 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="name1">Name 1</div>');
 var $win1 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="win1">Wins</div>');
-var $start = $('<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2" id="start">Start</div>');
-var $plyr2 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="plyr2">Player 2:</div>');
-var $name2 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="name2">Name 2</div>');
+var $start = $('<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-push-3 col-sm-push-2 col-md-push-2 col-lg-push-2" id="start">Start</div>');
+var $plyr2 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-3 col-sm-push-3 col-md-push-3 col-lg-push-2 pInfo" id="plyr2">Player 2:</div>');
+var $name2 = $('<div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xs-push-3 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="name2">Name 2</div>');
 var $win2 = $('<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-push-2 col-sm-push-2 col-md-push-2 col-lg-push-2 pInfo" id="win2">Wins</div>');
 var $whosTurn = $('<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-push-3 col-sm-push-3 col-md-push-3 col-lg-push-3" id="whosTurn">Click \'Start\' to Begin</div>');
 var $gameBoard = $('<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-push-3 col-sm-push-3 col-md-push-3 col-lg-push-3" id="gameBoard"></div>');
@@ -93,7 +93,7 @@ $('.pInfo').css({
     'height': '40px',
     'font-family': '"Lemonada", cursive',
     'font-size': '16px',
-    'text-align': 'right',
+    'text-align': 'center',
     'color': '#ff0',
     'background-color': '#2263c9'
 });
@@ -122,6 +122,29 @@ $('.box').css({
     'border-top': '2px solid #0606b2',
     'border-left': '2px solid #0606b2'
 });
+
+$box13.css({
+    'border-right': '2px solid #0606b2'
+});
+
+$box23.css({
+    'border-right': '2px solid #0606b2'
+});
+
+$box31.css({
+    'border-bottom': '2px solid #0606b2'
+});
+
+$box32.css({
+    'border-bottom': '2px solid #0606b2'
+});
+
+$box33.css({
+    'border-right': '2px solid #0606b2',
+    'border-bottom': '2px solid #0606b2'
+});
+
+
 
 
 /* -----  Functions  ----- */

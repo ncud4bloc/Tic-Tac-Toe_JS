@@ -1,0 +1,9 @@
+.pInfo {
+    font-size: 8px;
+    text-align: left;
+}
+
+#plyr1, #plyr2 {
+    display: none;
+}
+
