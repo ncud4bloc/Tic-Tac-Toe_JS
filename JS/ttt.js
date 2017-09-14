@@ -188,7 +188,7 @@ $(function(){
             clickedBox.css({
                 'background-repeat': 'no-repeat',
                 'background-position': 'center',
-                'background-size': 'cover'
+                'background-size': 'contain'
             });
             if(count % 2 !== 0){
                 clickedBox.css({
