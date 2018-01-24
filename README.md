@@ -1,4 +1,3 @@
-# Tic-Tac-Toe_JS
-New tic-tac-toe game using javascript and jquery
+Odin Project work: using JavaScript and jQuery
 
-Responsive tic-tac-toe. Just click "Start" to begin!
+Responsive tic-tac-toe. Just click "Start" to begin
